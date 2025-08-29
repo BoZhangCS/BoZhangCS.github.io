@@ -84,7 +84,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: false  # 禁用相关文章功能
@@ -142,13 +142,13 @@ newsletter:
 #    output: true
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
     output: true
   projects:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -233,6 +233,8 @@ jekyll-minifier:
   compress_javascript: true
   compress_json: true
   compress_html: true
+  uglifier_args:
+    harmony: true
   html_minifier_options:
     remove_comments: true
     collapse_whitespace: true
