@@ -38,7 +38,25 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
+// About page flex layout
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.profile-img {
+  flex: 0 0 35%;
+  max-width: 100%;
+}
+.about-content {
+  flex: 1 1 0;
+}
+.gray-text {
+  color: #888888;
+}
+.desc {
+  margin-top: 32px;
+}
 
 /******************************************************************************
  * Publications

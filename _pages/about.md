@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://jsj.nwpu.edu.cn/'>School of Computer Science</a>, <a href='https://www.nwpu.edu.cn/'>Northwestern Polytechnical University</a>
+subtitle: 
 
 profile:
   align: left
@@ -10,6 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="color: gray;"> @USENIX Security'25</p>
+    <a href='https://jsj.nwpu.edu.cn/'>School of Computer Science</a><br>
+    
+    <a href='https://www.nwpu.edu.cn/'>Northwestern Polytechnical University</a>
 
 announcements:
   enabled: true # includes a list of news items
@@ -20,6 +23,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Bo Zhang is now a second-year Ph.D. student at the School of Computer Science, Northwestern Polytechnical University, supervised by [Prof. Helei CUI](https://harrycui.github.io/).
+His research interests include **privacy computing and system security**.
+He also worked on **decentralized cloud storage and encrypted data deduplication**.
+He has published papers in top-tier conferences such as **USENIX Security and IEEE INFOCOM** and flagship transactions such as **IEEE TDSC and IEEE JISA**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During his undergraduate studies, he was among the inaugural cohort of the **Kang Jichang Class**. He graduated in 2023 as an **Outstanding Graduate (1/227)** of the School of Computer Science at Northwestern Polytechnical University.
+He is passionate about practical and deployable solutions for system security and privacy protection, and ambitious to produce solid and impactful research contributions 🚀.
