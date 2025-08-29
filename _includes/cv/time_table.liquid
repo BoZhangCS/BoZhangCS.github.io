@@ -3,21 +3,21 @@
     <li class="list-group-item">
       <div class="row">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
-            <table class="table-cv">
+          <div class="col-3 text-center pe-4">
+            <table class="table-cv w-100">
               <tbody>
                 <tr>
-                  <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                  <td class="text-center">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase">
                       {{- content.year -}}
                     </span>
                   </td>
                 </tr>
                 {% if content.logo %}
                 <tr>
-                  <td>
-                    <div class="cv-logo">
-                      <img src="{{ content.logo }}" alt="School Logo">
+                  <td class="text-center pt-2">
+                    <div class="cv-logo text-center">
+                      <img src="{{ content.logo }}" alt="School Logo" style="width: 100%; max-width: 100px; height: auto;">
                     </div>
                   </td>
                 </tr>
@@ -36,7 +36,7 @@
             </table>
           </div>
         {% endif %}
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="col-9 mt-2 mt-md-0" style="padding-top: 10px;">
           {% if content.title %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
           {% endif %}

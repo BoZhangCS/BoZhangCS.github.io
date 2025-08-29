@@ -174,13 +174,13 @@ Jekyll::Hooks.register :site, :after_init do |site|
         if url.is_a?(Hash)
           url.each do |type2, url2|
             # replace {{version}} with the version number if it exists
-            if url2.include?('{{version}}')
+            if url2.is_a?(String) && url2.include?('{{version}}')
               site.config['third_party_libraries'][key]['url'][type][type2] = url2.gsub('{{version}}', site.config['third_party_libraries'][key]['version'])
             end
           end
         else
           # replace {{version}} with the version number if it exists
-          if url.include?('{{version}}')
+          if url.is_a?(String) && url.include?('{{version}}')
             site.config['third_party_libraries'][key]['url'][type] = url.gsub('{{version}}', site.config['third_party_libraries'][key]['version'])
           end
         end

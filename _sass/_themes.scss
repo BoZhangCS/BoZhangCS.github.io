@@ -43,9 +43,19 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  #light-toggle-system,
+  #light-toggle-dark,
+  #light-toggle-light {
+    padding: 10px;
+    display: block;
+    position: relative; /* Add position relative */
+    border: none;      /* Remove border */
+    background: none;  /* Remove background */
+    transform: none;   /* Prevent transform */
+    transition: none;  /* Remove transition effects */
+  }
+
   #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
     display: block;
   }
 

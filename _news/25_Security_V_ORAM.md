@@ -5,7 +5,9 @@ inline: true
 related_posts: false
 ---
 
-##### One Paper Accepted by **USENIX Security** (CCF-A)!
+##### **One Paper Accepted by USENIX Security (CCF-A)!**
+
+Paper "V-ORAM: A Versatile and Adaptive ORAM Framework with Service Transformation for Dynamic Workloads." is accepted by USENIX Security, 2025. It's our first paper in Security, congratulations!
+
 
 ---
-Paper "V-ORAM: A Versatile and Adaptive ORAM Framework with Service Transformation for Dynamic Workloads." is accepted by USENIX Security, 2025. It's our first paper in **big-4**, congratulations!

@@ -15,11 +15,11 @@
   contents:
     - title: PhD candidate
       institution: Northwestern Polytechnical University
-      year: 2023.09 - present
+      year: 2023.09 - now
       logo: /assets/img/school_logos/nwpu.png
       description:
         - Computer Science and Technology
-        - Supervised by <a href="https://harrycui.github.io/" target="_blank">Prof. Helei CUI</a> 
+        - Supervised by <a href="https://harrycui.github.io/" target="_blank">Prof. Helei CUI</a>
 
     - title: Bachelor of Engineering (B.Eng)
       institution: Northwestern Polytechnical University
@@ -27,7 +27,7 @@
       logo: /assets/img/school_logos/nwpu.png
       description:
         - Computer Science and Technology
-        - Supervised by <a href="https://harrycui.github.io/" target="_blank">Prof. Helei CUI</a> 
+        - Supervised by <a href="https://harrycui.github.io/" target="_blank">Prof. Helei CUI</a>
 
 # - title: Experience
 #   type: time_table
