@@ -383,6 +383,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+#light-toggle {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
 #light-toggle,
 #search-toggle {
   padding: 0;
@@ -1422,4 +1429,8 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+[data-theme="dark"] abbr[style] {
+  background-color: var(--abbr-bg-dark) !important;
 }

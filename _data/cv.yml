@@ -16,6 +16,7 @@
     - title: PhD candidate
       institution: Northwestern Polytechnical University
       year: 2023.09 - present
+      logo: /assets/img/school_logos/nwpu.png
       description:
         - Computer Science and Technology
         - Supervised by <a href="https://harrycui.github.io/" target="_blank">Prof. Helei CUI</a> 
@@ -23,6 +24,7 @@
     - title: Bachelor of Engineering (B.Eng)
       institution: Northwestern Polytechnical University
       year: 2019.09 - 2023.07
+      logo: /assets/img/school_logos/nwpu.png
       description:
         - Computer Science and Technology
         - Supervised by <a href="https://harrycui.github.io/" target="_blank">Prof. Helei CUI</a> 

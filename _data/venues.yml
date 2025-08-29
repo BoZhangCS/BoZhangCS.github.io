@@ -7,13 +7,16 @@
 
 "EI":
   color: "#b7b7b7"
+  dark_color: "#888888"
 
 "CCF A":
   color: "#ffa39e"
+  dark_color: "#f5222d"
 
 "CCF B":
   color: "#ffbb96"
+  dark_color: "#fa541c"
 
 "CCF C":
   color: "#ffd591"
-
+  dark_color: "#fa8c16"
