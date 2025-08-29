@@ -62,7 +62,23 @@ body.sticky-bottom-footer {
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
+.row.bib-row {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 调整 abbr 区域宽度 */
+.abbr {
+  flex: 0 0 120px; /* 或你想要的具体像素宽度 */
+  max-width: 120px;
+  text-align: left;
+}
+
+/* publication 区域左对齐 */
+.bib-row .col-sm-10 {
+  text-align: left;
+}
 
 /*****************************************************************************
 * Projects
@@ -73,4 +89,16 @@ body.sticky-bottom-footer {
 a strong, a b {
   color: inherit;
   font-weight: bold;
+}
+
+.about-section {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  width: 100%;
+  max-width: 100%;
+  word-break: break-word;
 }

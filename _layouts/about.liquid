@@ -40,18 +40,22 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2 id="news" style="margin-top: 1em;">
-        <a style="color: inherit"><strong>News</strong></a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <div class="about-section">
+        <h2 id="news" style="margin-top: 1em;">
+          <a style="color: inherit"><strong>News</strong></a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </div>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 style="margin-top: 1em;">
-        <strong>Latest Publications</strong> <a href="{{ '/publications/' | relative_url }}" style="color: inherit">(full list)</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <div class="about-section">
+        <h2 style="margin-top: 1em;">
+          <strong>Selected Publications</strong> <a href="{{ '/publications/' | relative_url }}" style="color: inherit">(full list)</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </div>
     {% endif %}
 
 
