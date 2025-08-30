@@ -442,9 +442,10 @@ third_party_libraries:
       js_map: ""
   jquery:
     url:
-      js: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
-    integrity:
-      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+#      js: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+      js: "/assets/js/jquery.min.js"
+#    integrity:
+#      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     version: "3.6.0"
 
 # -----------------------------------------------------------------------------
